@@ -18,7 +18,7 @@ public class Test {
 		List<TbUsuario> lstUsuarios =em.createQuery("select a from TbUsuario a",TbUsuario.class).getResultList();
 		
 		/*MOSTAR CANTIDAD DE USUARIOS */
-		System.out.println("Nro de usuarios: " + lstUsuarios.size()); 
+		
 	}
 
 }
