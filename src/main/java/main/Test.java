@@ -16,7 +16,6 @@ public class Test {
 		EntityManager em = fabrica.createEntityManager();
 		
 		List<TbUsuario> lstUsuarios =em.createQuery("select a from TbUsuario a",TbUsuario.class).getResultList();
-		System.out.println("=============");
 		
 		/*MOSTAR CANTIDAD DE USUARIOS */
 		System.out.println("Nro de usuarios: " + lstUsuarios.size()); 
